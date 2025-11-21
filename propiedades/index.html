@@ -1,39 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arriendo de Propiedades</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://kit.fontawesome.com/a39c00a24b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <ul style="list-style: none; display: flex; gap: 1rem; padding: 0;">
-            <li><a href="#home">Inicio</a></li>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+  <div class="container">
+    <header class="site-header">
+      <nav class="navbar">
+        <a href="#" class="brand"><i class="fa-solid fa-house"></i> Propiedades</a>
+        <ul class="nav-list">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
-    </nav>
-    <main>
-        <section id="home">
-            <h1>Arriendo de Propiedades</h1>
-            <p>Bienvenido a nuestro portal de arriendo de propiedades. Encuentra la mejor opción para ti.</p>
+        <a class="nav-cta" href="#contacto">Contáctanos</a>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      <section class="content card article" id="home">
+        <h1>Arriendo de Propiedades</h1>
+        <p class="text-muted">Bienvenido a nuestro portal de arriendo de propiedades. Encuentra la mejor opción para ti.</p>
+
+        <section id="servicios" style="margin-top:1rem;">
+          <h2>Nuestros Servicios</h2>
+          <ul>
+            <li>Arriendo de casas y departamentos</li>
+            <li>Asesoría inmobiliaria</li>
+            <li>Gestión de contratos</li>
+          </ul>
         </section>
-        <section id="servicios">
-            <h2>Nuestros Servicios</h2>
-            <ul>
-                <li>Arriendo de casas y departamentos</li>
-                <li>Asesoría inmobiliaria</li>
-                <li>Gestión de contratos</li>
-            </ul>
-        </section>
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Email: contacto@propiedades.com</p>
-            <p>Teléfono: +56 9 1234 5678</p>
-        </section>
+      </section>
+
+      <aside class="aside card">
+        <h3 class="small">Contacto</h3>
+        <p class="text-muted">Email: contacto@propiedades.com</p>
+        <p class="text-muted">Tel: +56 9 1234 5678</p>
+      </aside>
     </main>
-    <footer style="margin-top: 2rem; text-align: center; color: #888;">
-        &copy; 2025 Arriendo de Propiedades. Todos los derechos reservados.
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>&copy; 2025 Arriendo de Propiedades</div>
+        <div class="small text-muted">Todos los derechos reservados.</div>
+      </div>
     </footer>
+  </div>
 </body>
 </html>
