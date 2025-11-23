@@ -107,10 +107,9 @@ main.site-main{
 
 /* Card para secciones */
 .card{
-  background: var(--card);
-  padding: 1rem;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
 }
 
 /* Zona principal de contenido */
@@ -172,8 +171,7 @@ footer.site-footer{
   .nav-cta{ padding: .4rem .6rem; font-size: .9rem; }
 }
 
-/* Utilidades */
+
 .text-muted{ color: var(--muted); font-size: .95rem; }
 .small{ font-size: .85rem; color: var(--muted); }
 
-/* ...existing code... */
